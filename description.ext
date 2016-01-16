@@ -1,6 +1,6 @@
-Author = "Jigsor =BMR=";
+Author = "Jigsor";
 loadScreen = "images\bmrflag.paa";
-onLoadName = "BMR Insurgency Takistan";
+onLoadName = "Bozcaada Insurgency";
 onLoadMission = bmr-squad.com;
 onLoadMissionTime = false;
 overviewText = "Find and destroy all ammo caches";
