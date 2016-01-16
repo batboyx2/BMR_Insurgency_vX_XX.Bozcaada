@@ -241,7 +241,7 @@ if (isServer) then {
 		case (toLower (worldName) isEqualTo "bozcaada"):
 		{
 			Airfield_opt = true; publicVariable "Airfield_opt";
-			Rand_AirCntr_OFstMax = 1800; publicVariable "Rand_AirCntr_OfstMax";
+			Rand_AirCntr_OFstMax = 100; publicVariable "Rand_AirCntr_OfstMax";
 			Del_box_Pos = (getPos Delivery_Box); publicVariable "Del_box_Pos";
 			/*all_eos_mkrs = [];
 			for "_i" from 1 to 1473 do {
@@ -273,7 +273,7 @@ if (isServer) then {
 	suicide_bmbr_miniweps = ["MiniGrenade"];
 	suicide_bmbr_deadman = ["mini_Grenade","GrenadeHand","APERSBoundingMine_Range_Ammo","IEDUrbanSmall_Remote_Ammo"];
 	cache_types = ["Box_East_Ammo_F","Box_IND_Ammo_F","Box_FIA_Ammo_F","Land_Pallet_MilBoxes_F"];
-	INS_log_blacklist = [INS_Wep_box,INS_flag,INS_Op4_flag,INS_nade_Nbox,INS_ammo_Nbox,INS_weps_Nbox,INS_launchers_Nbox,INS_sup_Nbox,INS_weps_Cbox,INS_ammo_Cbox,INS_nade_Cbox,INS_launchers_Cbox,INS_demo_Cbox,INS_sup_Cbox];//Logistics object names blacklist //Delivery_Box
+	INS_log_blacklist = [INS_Wep_box,INS_flag,INS_nade_Nbox,INS_ammo_Nbox,INS_weps_Nbox,INS_launchers_Nbox,INS_sup_Nbox];//Logistics object names blacklist //Delivery_Box
 };
 
 // Global Class Arrays /////////////////////////////////////////////////////

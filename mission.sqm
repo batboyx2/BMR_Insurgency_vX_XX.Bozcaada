@@ -80,7 +80,8 @@ class Mission
 		"rhsusf_c_m1a1",
 		"R3F_Retex",
 		"A3_Air_F_Gamma_Plane_Fighter_03",
-		"rhsusf_c_f22"
+		"rhsusf_c_f22",
+		"cup_ca_config"
 	};
 	addOnsAuto[]=
 	{
@@ -137,12 +138,12 @@ class Mission
 		"A3_Air_F_Gamma_Plane_Fighter_03",
 		"A3_Air_F_EPC_Plane_CAS_01",
 		"rhsusf_c_f22",
+		"cup_ca_config",
 		"bozcaada"
 	};
 	randomSeed=4828189;
 	class Intel
 	{
-		briefingName="";
 		overviewText="Eliminate Armed Rebellion Against NATO forces. Gather Intel on Location of Enemy Ammo Cache and Destroy it.";
 		resistanceWest=0;
 		resistanceEast=1;
@@ -1599,7 +1600,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=277;
+		items=279;
 		class Item0
 		{
 			position[]={7962.603,18.403713,12263.35};
@@ -4565,6 +4566,24 @@ class Mission
 			vehicle="UK3CB_BAF_Coyote_Passenger_L111A1_D";
 			skill=0.60000002;
 			init="_nul = [this, 30, 1, {}] execVM ""vehrespawn.sqf"";";
+		};
+		class Item277
+		{
+			position[]={7385.1216,28.124243,12146.817};
+			azimut=-63.451752;
+			id=363;
+			side="EMPTY";
+			vehicle="RampConcrete";
+			skill=0.60000002;
+		};
+		class Item278
+		{
+			position[]={7383.0854,27.995111,12143.093};
+			azimut=-63.451752;
+			id=364;
+			side="EMPTY";
+			vehicle="RampConcrete";
+			skill=0.60000002;
 		};
 	};
 	class Markers
