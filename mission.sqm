@@ -4591,7 +4591,7 @@ class Mission
 		class Item278
 		{
 			position[]={7916.7622,18.210526,12366.716};
-			azimut=-343.422;
+			azimut=5.6547637;
 			id=364;
 			side="EMPTY";
 			vehicle="I_Plane_Fighter_03_CAS_F";
@@ -4620,8 +4620,8 @@ class Mission
 		};
 		class Item281
 		{
-			position[]={7979.4468,18.417177,12339.942};
-			azimut=-329.1275;
+			position[]={7986.291,18.438873,12336.414};
+			azimut=-331.81299;
 			id=367;
 			side="EMPTY";
 			vehicle="rhsusf_f22";
@@ -4630,8 +4630,8 @@ class Mission
 		};
 		class Item282
 		{
-			position[]={7993.3467,18.456694,12333.194};
-			azimut=-335.875;
+			position[]={7975.9204,18.389603,12315.304};
+			azimut=-331.81299;
 			id=368;
 			side="EMPTY";
 			vehicle="rhsusf_f22";
@@ -4640,53 +4640,53 @@ class Mission
 		};
 		class Item283
 		{
-			position[]={7969.7183,18.359478,12319.397};
-			azimut=-329.1275;
-			id=369;
-			side="EMPTY";
-			vehicle="rhsusf_f22";
-			skill=0.60000002;
-			init="_nul = [this, 30, 1, {}] execVM ""vehrespawn.sqf"";";
-		};
-		class Item284
-		{
-			position[]={7983.6675,18.424671,12312.608};
-			azimut=-335.875;
-			id=370;
-			side="EMPTY";
-			vehicle="rhsusf_f22";
-			skill=0.60000002;
-			init="_nul = [this, 30, 1, {}] execVM ""vehrespawn.sqf"";";
-		};
-		class Item285
-		{
 			position[]={7565.2021,16.852505,12437.496};
 			azimut=-330.60489;
-			id=371;
+			id=369;
 			side="EMPTY";
 			vehicle="RHS_AH64D_CS";
 			skill=0.60000002;
 			init="_nul = [this, 30, 1, {}] execVM ""vehrespawn.sqf"";";
 		};
-		class Item286
+		class Item284
 		{
 			position[]={7577.4805,16.85,12462.263};
 			azimut=-330.60501;
-			id=372;
+			id=370;
 			side="EMPTY";
 			vehicle="RHS_AH64D_GS";
 			skill=0.60000002;
 			init="_nul = [this, 30, 1, {}] execVM ""vehrespawn.sqf"";";
 		};
-		class Item287
+		class Item285
 		{
 			position[]={7591.0396,16.85,12489.28};
 			azimut=-330.60501;
-			id=373;
+			id=371;
 			side="EMPTY";
 			vehicle="RHS_AH64D";
 			skill=0.60000002;
 			init="_nul = [this, 30, 1, {}] execVM ""vehrespawn.sqf"";";
+		};
+		class Item286
+		{
+			position[]={7974.1919,18.402225,12358.07};
+			azimut=30.162289;
+			id=372;
+			side="EMPTY";
+			vehicle="Land_JetEngineStarter_01_F";
+			skill=0.60000002;
+			init="this enablesimulation false;this allowdamage false;";
+		};
+		class Item287
+		{
+			position[]={8011.7822,18.4918,12340.018};
+			azimut=30.162289;
+			id=373;
+			side="EMPTY";
+			vehicle="Land_JetEngineStarter_01_F";
+			skill=0.60000002;
+			init="this enablesimulation false;this allowdamage false;";
 		};
 	};
 	class Markers
@@ -8182,10 +8182,10 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={7985.6992,18.436981,12381.549};
-			a=42;
+			position[]={7982.8765,18.417219,12377.742};
+			a=80;
 			b=20;
-			angle=26.16227;
+			angle=26.1623;
 			rectangular=1;
 			activationBy="ANY";
 			repeating=1;
