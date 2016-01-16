@@ -7,7 +7,7 @@ if (DebugEnabled > 0) then {
 
 hideIedMarker = true;  //sets the alpha to 0 after spawning IEDs there
 
-itemsRequiredToDisarm = ["ToolKit"];   //"MineDetector" or "ToolKit" for example
+itemsRequiredToDisarm = ["ToolKit","MineDetector"];   //"MineDetector" or "ToolKit" for example
 betterDisarmers = ["B_soldier_exp_F", "B_engineer_F", "B_diver_exp_F", "B_recon_exp_F"]; // people who are better at disarming
 
 baseDisarmChance = 75; //how well everybody can disarm
@@ -63,23 +63,22 @@ allowExplosiveToTriggerIEDs = true;
 //http://community.bistudio.com/wiki/side
 
 iedArray = [
-	["IEDa", 1,1, "WEST"],
-	["IED1", 1,1, "WEST"],
-	["IED2", 1,1, "WEST"],
-	["IED3", 1,1, "WEST"],
-	["IED4", 1,1, "WEST"],
-	["IED5", 2,2, "WEST"],
-	["IED6", 1,1, "WEST"],
-	["IED7", 1,1, "WEST"],
-	["IED8", 1,1, "WEST"],
-	["IED9", 1,1, "WEST"],
-	["IED10", 1,1, "WEST"],
-	["IED11", 1,1, "WEST"],
-	["IED12", 1,1, "WEST"],
-    ["IED13", 2,4, "WEST"],
-	["IED14", 1,2, "WEST"],
-	["IED15", 1,1, "WEST"],
-	["IED16", 2,1, "WEST"]
+	["IED_1", 2, "WEST"],
+	["IED_2", 2, "WEST"],
+	["IED_3", 2, "WEST"],
+	["IED_4", 2, "WEST"],
+	["IED_5", 2, "WEST"],
+	["IED_6", 2, "WEST"],
+	["IED_7", 2, "WEST"],
+	["IED_8", 2, "WEST"],
+	["IED_9", 2, "WEST"],
+	["IED_10", 2, "WEST"],
+	["IED_11", 2, "WEST"],
+	["IED_12", 2, "WEST"],
+	["IED_13", 2, "WEST"],
+    ["IED_14", 2, "WEST"],
+	["IED_15", 2, "WEST"],
+	["IED_16", 2, "WEST"]
 	];
 	
 //Place the mapLocations, predefinedLocations, and markerNames of places you don't want any IEDs spawning
