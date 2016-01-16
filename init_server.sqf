@@ -118,7 +118,7 @@ execVM "scripts\remove_boobyTraps.sqf";
 execVM "scripts\unattended_maintenance.sqf";
 
 // Friendly Fixed Wing Assets //
-if (Airfield_opt) then
+/*if (Airfield_opt) then
 {
 	if ((INS_op_faction isEqualTo 9) && (isClass(configFile >> "cfgPatches" >> "SUD_A10"))) then
 	{
@@ -161,7 +161,7 @@ if (Airfield_opt) then
 		};
 	};
 };
-
+*/
 // Tasks //
 waitUntil {! isNil "SHK_Taskmaster_Tasks"};
 if (DebugEnabled isEqualTo 1) then {
