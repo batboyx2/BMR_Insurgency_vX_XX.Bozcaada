@@ -82,9 +82,9 @@ INS_ACE_para = if (isClass(configFile >> "cfgPatches" >> "ace_parachute")) then 
 //array
 StackedEHkeysWhiteList = ["CBA_PFH"];
 ghst_Build_objs = [];// all ammo cache objects array
-Op4_mkrs = ["Respawn_East"];
+Op4_mkrs = [];
 Blu4_mkrs = ["Respawn_West","Helicopters","Mechanized","VehicleMaintenance","HelicopterRepair","HelicopterRepair2","AircraftMaintenance","Halo","Dock"];
-INS_Op4_wepCrates = [INS_weps_Cbox,INS_ammo_Cbox,INS_nade_Cbox,INS_launchers_Cbox,INS_demo_Cbox,INS_sup_Cbox,INS_E_tent];
+INS_Op4_wepCrates = [];
 INS_Blu4_wepCrates = [INS_weps_Nbox,INS_ammo_Nbox,INS_nade_Nbox,INS_launchers_Nbox,INS_sup_Nbox];
 
 if (INS_GasGrenadeMod isEqualTo 1) then {

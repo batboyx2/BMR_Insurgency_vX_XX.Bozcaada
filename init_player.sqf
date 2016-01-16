@@ -92,9 +92,9 @@ if (DebugEnabled > 0) then {
 
 	// Op4 Weapon Box
 	//INS_weps_Cbox addAction[("<t size='1.5' shadow='2' color='#ff1111'>") + (localize "STR_BMR_open_VA") + "</t>",{["Open",true] call BIS_fnc_arsenal;}];// uncomment to allow Op4 access to Virtual Arsenal.
-	INS_weps_Cbox addAction[("<t size='1.5' shadow='2' color='#ff9207'>") + (localize "STR_BMR_save_loadout") + "</t>",{call INS_RespawnLoadout}, [], 1, false, true, "", "side _this != INS_Blu_side"];
-	INS_weps_Cbox addAction[("<t size='1.5' shadow='2' color='#ff1111'>") + (localize "STR_BMR_load_saved_loadout") + "</t>",{(_this select 1) call INS_RestoreLoadout},nil,1, false, true, "", "side _this != INS_Blu_side"];
-	INS_weps_Cbox addAction[("<t size='1.5' shadow='2' color='#12F905'>") + (localize "STR_BMR_restore_default_loadout") + "</t>",{call Op4_restore_loadout},nil,1, false, true, "", "side _this != INS_Blu_side"];
+	//INS_weps_Cbox addAction[("<t size='1.5' shadow='2' color='#ff9207'>") + (localize "STR_BMR_save_loadout") + "</t>",{call INS_RespawnLoadout}, [], 1, false, true, "", "side _this != INS_Blu_side"];
+	//INS_weps_Cbox addAction[("<t size='1.5' shadow='2' color='#ff1111'>") + (localize "STR_BMR_load_saved_loadout") + "</t>",{(_this select 1) call INS_RestoreLoadout},nil,1, false, true, "", "side _this != INS_Blu_side"];
+	//INS_weps_Cbox addAction[("<t size='1.5' shadow='2' color='#12F905'>") + (localize "STR_BMR_restore_default_loadout") + "</t>",{call Op4_restore_loadout},nil,1, false, true, "", "side _this != INS_Blu_side"];
 
 	// AI recruitment
 	if (max_ai_recruits > 1) then {INS_Wep_box addAction[("<t size='1.5' shadow='2' color='#1d78ed'>") + (localize "STR_BMR_recruit_inf") + "</t>","bon_recruit_units\open_dialog.sqf", [], 1];};
