@@ -123,7 +123,7 @@ class Params
 	title = "		Enemy Infantry Probability";
 	values[]={25,50,75,100};
 	texts[]={"25 % chance","50 % chance","75 % chance","100 % chance"};
-	default = 25;
+	default = 50;
 	};
 	class armor_chance//14
 	{
